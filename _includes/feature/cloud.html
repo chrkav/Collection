@@ -61,7 +61,7 @@
             }
         }
         {% if include.stopwords %}/* apply stopwords */
-        var stopWords = {{ include.stopwords | downcase | split: ';' | jsonify }};
+        var stopWords = "kavanagh"; "christa" {{ include.stopwords | downcase | split: ';' | jsonify }};
         terms = terms.filter(function(a) { return stopWords.indexOf(a[0]) < 0;});{% endif %}
         // create cloud
         // get cloud div
