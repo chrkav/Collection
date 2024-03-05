@@ -18,7 +18,7 @@ var mapCenter = url.searchParams.get('location') ? url.searchParams.get('locatio
 var mapZoom = url.searchParams.get('location') ? 16 : {{ site.data.theme.zoom-level | default: 5 }};
 var markerFilter = url.searchParams.get('marker') ? url.searchParams.get('marker') : "";
 /* init map, set center and zoom */
-var map = L.map('map').setView(mapCenter, mapZoom);
+var map = L.map('map').setView(mapCenter: 35.99403, -78.89862, mapZoom: 10);
 
 /* add map layer options */
 var Esri_WorldStreetMap = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}', {
