@@ -8,11 +8,8 @@ credits: true
 # Look in _includes/feature for options to easily add features to the page
 ---
 
-{% include feature/jumbotron.html objectid="/assets/img/jj-ying-WmnsGyaFnCQ-unsplash_opt.jpg" %}
+{% include feature/jumbotron.html objectid="greenseaturtlenagsheadnc.jpg" %}
 
-## About CollectionBuilder-Sheets
-
-{% include feature/image.html objectid="greenseaturtlenagsheadnc.jpg" width="75" %}
 
 This collection includes photographs and graphic design materials made by Christa Kavanagh.
 
