@@ -9,7 +9,7 @@ credits: true
 ---
 This collection includes photographs and graphic design materials created by Christa Kavanagh.
 
-{% include feature/jumbotron.html objectid="" %}
+{% include feature/jumbotron.html objectid="/objects/greenseaturtlenagsheadnc.jpg" %}
 
 {:.text-center}
 
