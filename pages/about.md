@@ -7,7 +7,7 @@ credits: true
 # Edit the markdown on in this file to describe your collection
 # Look in _includes/feature for options to easily add features to the page
 ---
-{% include feature/jumbotron.html objectid="/objects/sunsetwillowbeachlakear.jpg" %}
+{% include feature/jumbotron.html objectid="/objects/turkeytail.JPG" %}
 
 This collection includes photographs and graphic design materials created by Christa Kavanagh. Photographs were taken in various locations, ranging from Arkansas in the United States to the Glastonbury in the United Kingdom. Graphic design materials are some of the things that were created for various organizations over the past year. 
 
