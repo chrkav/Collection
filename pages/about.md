@@ -9,7 +9,7 @@ credits: true
 ---
 {% include feature/jumbotron.html objectid="/objects/turkeytail.JPG" %}
 
-This collection includes photographs and graphic design materials created by Christa Kavanagh. Photographs were taken in various locations, ranging from Arkansas in the United States to the Glastonbury in the United Kingdom. Graphic design materials are some of the things that were created for various organizations over the past year. 
+DANGER: SOME MUSHROOMS AND PLANTS ARE DEADLY. I am not a professional botanist or mycologist, just a hobbyist who likes foraging. If you are going to take up foraging, please seek out a professional and take a class on edible plant and fungi identification. 
 
 
 
