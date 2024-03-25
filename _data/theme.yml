@@ -96,7 +96,7 @@ bootswatch: darkly # leave blank or comment out for plain bootstrap
 base-font-size: 1.2em
 text-color: "#FFFFFF"
 link-color: "#0d6efd"
-base-font-family: lux # comment out for bootstrap defaults. e.g. Roboto
+base-font-family: yeti # comment out for bootstrap defaults. e.g. Roboto
 font-cdn: <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Georgia"> # add font stylesheet, e.g. <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
 
 # THEME ICONS [optional!]
