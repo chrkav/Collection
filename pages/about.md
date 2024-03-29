@@ -3,43 +3,46 @@ title: About
 layout: about
 permalink: /about.html
 # include CollectionBuilder info at bottom
-credits: false
+credits: true
 # Edit the markdown on in this file to describe your collection
 # Look in _includes/feature for options to easily add features to the page
 ---
-{% include feature/jumbotron.html objectid="/objects/crabobx.jpg" %}
 
-DANGER: SOME MUSHROOMS AND PLANTS ARE DEADLY. I am not a professional botanist or mycologist, just a hobbyist who likes foraging. If you are going to take up foraging, please invest in seeking out a professional and take a class on edible plant and fungi identification. There are a lot of AI-generated fungi and mis-identified fungi on the internet, so investing in a field guide like the one from the National Audubon Society is necessary to prevent misidentification. REMEMBER, IF YOU AREN'T SURE, DON'T EAT IT.
+{% include feature/jumbotron.html objectid="/assets/img/jj-ying-WmnsGyaFnCQ-unsplash_opt.jpg" %}
 
-This is a collection of plants, animals, fungi, and wild spaces I have found while hiking since 2020. I have always done casual foraging, being taught what was edible or not in the mountains of East Tennessee with my grandmother and great-grandmother. Gathering ramps and dandelions in the spring, blackberries, strawberries, and pawpaw in the summer, and persimmons and nuts in the autumn gave a bit of structure to the seasons and made me aware of what to look out for. We never gathered mushrooms; there are too many extremely dangerous look-a-likes in the American South to make it as much of the culture as it is in other places with slightly less deadly look-a-likes. 
+## About CollectionBuilder-Sheets
 
-Hiking is a particular passion. I teach hiking and camping to children, and I teach adults how to take children into the outdoors. It's always interesting to see how people interact with wild spaces, and how superstition manifests in those spaces. Some of the hiking rules I teach:
+This site is generated using [CollectionBuilder-Sheets](https://github.com/CollectionBuilder/collectionbuilder-sheets), a template  for creating simple digital exhibit websites by loading collection metadata directly from a CSV, designed for teaching digital library skills and easy hosting on GitHub Pages.
 
-General:
-Always let someone know where you are going to be and how long you plan to be gone before you set out.
-When hiking in groups, the group stays together. Don't wander off and leave the slower hikers. It's rude and dangerous. 
-Your phone should be fully charged, but don't count on having service where you're hiking. 
-When hiking in groups, the group stays together. Don't wander off and leave the slower hikers. It's rude and dangerous. 
+Using CB-Sheets, it is possible to use a live Google Sheets spreadsheet for your collection metadata, allowing you to see the outcome of metadata edits update immediately.
+This enables active collaboration to prototype collections with minimal set up.
 
-To Bring and Wear:
-No matter how short your planned hike, always carry water, a snack, a small first aid kit, whistle, flashlight, lighter or waterproof matches, penknife, rain jacket or poncho, hand sanitizer, small trowel, insect repellent, sunscreen, compass, and map.
-Wear properly broken in hiking shoes or boots, long socks, and long pants tucked into your boots or socks. Ticks and tick-borne illnesses are no joke.  
-Bug spray goes around your ankes, waist, and the exposed skin below your neck that isn't your hands. Make sure you check for ticks at the end of your hike.  
-
-Wildlife:
-Don't bother the wildlife. If you put your hand up with your thumb out and your thumb doesn't cover the animal, you are too close. 
-Make noise while you hike to alert wildlife to your presence. It will generally avoid you.
-Deer and elk are not your friends, especially in autumn. 
-If you are hiking in the eastern United States, any bears you encounter will be black bears. The proper way to deal with them is to look like a threat: get big and make lots of noise. 
-If you are hiking in the western United States, you could encounter black bears or brown bears. Brown bears look at big, noisy things as a challenge. Hit the ground and protect your neck. Get decent at telling bears apart and/or carry bear spray out west.
-
-Trail and Surroundings:
-Pay attention to the trail markings. If you can't find the next one, go back to the last one you saw to make sure you haven't wandered off trail. 
-Pay attention to your surroundings. Nature is beautiful, and nature is dangerous. You don't need to invent eldrich fae luring people off to fairyland when it is perfectly possible to disappear by falling into a horizontal cave mouth.
-
-Most of the hiking I have done since 2020 has been in the greater North Carolina Triangle area, with occasional forays out to the mountains of East Tennessee and the Outer Banks of North Carolina. Generally these photographs were taken on day hikes, but some of them were taking on backpacking or camping trips. 
-
-
+<button class="btn btn-lg btn-success" data-bs-toggle="modal" data-bs-target="#cbSetUpModal">
+    <svg class="bi icon-sprite" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16" aria-hidden="true">
+        <path d="M8 4.754a3.246 3.246 0 1 0 0 6.492 3.246 3.246 0 0 0 0-6.492zM5.754 8a2.246 2.246 0 1 1 4.492 0 2.246 2.246 0 0 1-4.492 0z"/>
+        <path d="M9.796 1.343c-.527-1.79-3.065-1.79-3.592 0l-.094.319a.873.873 0 0 1-1.255.52l-.292-.16c-1.64-.892-3.433.902-2.54 2.541l.159.292a.873.873 0 0 1-.52 1.255l-.319.094c-1.79.527-1.79 3.065 0 3.592l.319.094a.873.873 0 0 1 .52 1.255l-.16.292c-.892 1.64.901 3.434 2.541 2.54l.292-.159a.873.873 0 0 1 1.255.52l.094.319c.527 1.79 3.065 1.79 3.592 0l.094-.319a.873.873 0 0 1 1.255-.52l.292.16c1.64.893 3.434-.902 2.54-2.541l-.159-.292a.873.873 0 0 1 .52-1.255l.319-.094c1.79-.527 1.79-3.065 0-3.592l-.319-.094a.873.873 0 0 1-.52-1.255l.16-.292c.893-1.64-.902-3.433-2.541-2.54l-.292.159a.873.873 0 0 1-1.255-.52l-.094-.319zm-2.633.283c.246-.835 1.428-.835 1.674 0l.094.319a1.873 1.873 0 0 0 2.693 1.115l.291-.16c.764-.415 1.6.42 1.184 1.185l-.159.292a1.873 1.873 0 0 0 1.116 2.692l.318.094c.835.246.835 1.428 0 1.674l-.319.094a1.873 1.873 0 0 0-1.115 2.693l.16.291c.415.764-.42 1.6-1.185 1.184l-.291-.159a1.873 1.873 0 0 0-2.693 1.116l-.094.318c-.246.835-1.428.835-1.674 0l-.094-.319a1.873 1.873 0 0 0-2.692-1.115l-.292.16c-.764.415-1.6-.42-1.184-1.185l.159-.291A1.873 1.873 0 0 0 1.945 8.93l-.319-.094c-.835-.246-.835-1.428 0-1.674l.319-.094A1.873 1.873 0 0 0 3.06 4.377l-.16-.292c-.415-.764.42-1.6 1.185-1.184l.292.159a1.873 1.873 0 0 0 2.692-1.115l.094-.319z"/>
+    </svg> 
+    Change the Metadata!
+</button>
 {:.text-center}
 
-This site is generated using [CollectionBuilder-Sheets](https://github.com/CollectionBuilder/collectionbuilder-sheets). For full details of creating your own collection site, visit [CollectionBuilder Documentation](https://collectionbuilder.github.io/cb-docs/)!
+## Create your own Metadata
+
+To create metadata compatible with this CollectionBuilder-Sheets instance the best way to get started is to make of copy of our template in Google Drive:
+
+[CollectionBuilder Metadata Template](https://docs.google.com/spreadsheets/d/1Uv9ytll0hysMOH1j-VL1lZx6PWvc1zf3L35sK_4IuzI/copy?usp=sharing){:.btn .btn-outline-primary target="_blank" rel="noopener"}
+{:.text-center}
+
+Alternatively, you can [download the template CSV]({{ '/assets/metadata-template.csv' | relative_url }}) and work on your local machine.
+We suggest editing your CSV using [LibreOffice](https://www.libreoffice.org/) Calc, [OpenRefine](https://openrefine.org/), or Google Sheets (and do not suggest using Excel, since Excel's CSV output is not correctly formatted).
+
+Describe your items in your copy of the template, following the [Metadata Guidelines]({{ '/metadata.html' | relative_url }}). 
+
+Once you have items added you can test your metadata by clicking the "Change the Metadata" button above.
+
+## Learn More
+
+For full details of creating your own collection site, visit [CollectionBuilder Documentation](https://collectionbuilder.github.io/cb-docs/)!
+
+The template repository features four objects from the University of Idaho Library's [Digital Collections](https://www.lib.uidaho.edu/digital). 
+Featured image by [JJ Ying on Unsplash](https://unsplash.com/photos/WmnsGyaFnCQ).
