@@ -41,3 +41,11 @@ Most of the hiking I have done since 2020 has been in the greater North Carolina
 
 
 {:.text-center}
+
+<p class="text-white" id="footer-credits">
+                <small><em>built with</em>
+                    <a href="https://collectionbuilder.github.io/" target="_blank" rel="noopener" title="CollectionBuilder">
+                        <img src="/Collection/assets/img/collectionbuilder-logo.png" class="img-fluid" alt="CollectionBuilder logo" >
+                    </a>
+                </small>
+            </p>
