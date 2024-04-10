@@ -19,7 +19,6 @@ General:
 Always let someone know where you are going to be and how long you plan to be gone before you set out.
 When hiking in groups, the group stays together. Don't wander off and leave the slower hikers. It's rude and dangerous. 
 Your phone should be fully charged, but don't count on having service where you're hiking. 
-When hiking in groups, the group stays together. Don't wander off and leave the slower hikers. It's rude and dangerous. 
 
 To Bring and Wear:
 No matter how short your planned hike, always carry water, a snack, a small first aid kit, whistle, flashlight, lighter or waterproof matches, penknife, rain jacket or poncho, hand sanitizer, small trowel, insect repellent, sunscreen, compass, and map.
